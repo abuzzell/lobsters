@@ -5,7 +5,7 @@ gem "rails", "~> 6.0.3.3"
 gem "postgres"
 
 # uncomment to use PostgreSQL
-# gem "pg"
+gem "pg"
 
 # rails
 gem 'scenic'
