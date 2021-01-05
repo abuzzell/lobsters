@@ -1,6 +1,6 @@
 
 default: &default
-  adapter: postgresql
+  adapter: mysql2
   encoding: unicode
 
 development:
