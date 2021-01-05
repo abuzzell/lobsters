@@ -45,3 +45,8 @@ config/initializers/secret_token.rb
 config/*.sphinx.conf
 config/unicorn.conf.rb
 config/scout_apm.yml
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
