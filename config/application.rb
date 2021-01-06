@@ -82,7 +82,7 @@ class << Rails.application
   end
 
   def domain
-    "gmail.com"
+    "test1.eba-26fesm3m.us-east-2.elasticbeanstalk.com"
   end
 
   def name
