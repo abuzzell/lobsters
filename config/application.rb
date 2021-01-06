@@ -86,7 +86,7 @@ class << Rails.application
   end
 
   def name
-    "Lobsters"
+    "AIEN: AI Ethics News"
   end
 
   # to force everyone to be considered logged-out (without destroying
@@ -104,7 +104,7 @@ class << Rails.application
 
   # used as mailing list prefix, cannot have spaces
   def shortname
-    name.downcase.gsub(/[^a-z]/, "")
+    "AIEN"
   end
 
   # whether absolute URLs should include https (does not require that
@@ -113,3 +113,5 @@ class << Rails.application
     true
   end
 end
+
+
