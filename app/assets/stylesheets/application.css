@@ -521,7 +521,7 @@ li .domain {
 }
 
 .merge {
-	background: url('icon.png') no-repeat;
+	background: url('/icon.png') no-repeat;
 	width: 11px;
 	height: 14px;
 	padding-right: 2px;
@@ -1271,7 +1271,7 @@ div.flash-success h2 {
 .pushover_button {
 	box-sizing: border-box;
 	background-color: #eee;
-	background: url('icon.png') 2px 2px no-repeat, linear-gradient(#FFF, #DEDEDE);
+	background: url('/icon.png') 2px 2px no-repeat, linear-gradient(#FFF, #DEDEDE);
 	border: 1px solid #CCC;
 	border-radius: 3px;
 	color: #333;

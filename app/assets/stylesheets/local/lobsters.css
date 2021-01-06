@@ -24,7 +24,7 @@ span.hat_sysop span.crown {
 }
 #l_holder:after {
 	content: '';
-	background: transparent url('icon.png') no-repeat center;
+	background: transparent url('/icon.png') no-repeat center;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -36,7 +36,7 @@ span.hat_sysop span.crown {
 only screen and (min-resolution: 2dppx),
 only screen and (-webkit-min-device-pixel-ratio: 2) {
 	#l_holder {
-		background: #ee0000 url('icon.png') no-repeat;
+		background: #ee0000 url('/icon.png') no-repeat;
 		background-size: 16px;
 		background-position: 1px 1px;
 	}
