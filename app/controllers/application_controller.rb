@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   include IntervalHelper
 
-  protect_from_forgery
+  #protect_from_forgery
   before_action :authenticate_user
   before_action :mini_profiler
   before_action :set_traffic_style
