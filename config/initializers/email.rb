@@ -7,4 +7,4 @@ ActionMailer::Base.smtp_settings = {
   :password => ENV.fetch("SMTP_PASSWORD", ""),
 }
 
-config.action_mailer.default_options = {from: 'andrewbuzzell@gmail.com'}
+ActionMailer::Base.default :from => 'andrewbuzzell@gmail.com'

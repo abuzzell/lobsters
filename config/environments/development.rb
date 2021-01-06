@@ -58,6 +58,6 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 end
 
-config.action_mailer.default_options = {from: 'andrewbuzzell@gmail.com'}
+ActionMailer::Base.default :from => 'andrewbuzzell@gmail.com'
 Keybase.DOMAIN = Rails.application.domain
 Keybase.BASE_URL = ENV.fetch('KEYBASE_BASE_URL') { 'https://keybase.io' }
