@@ -5,5 +5,6 @@ ActionMailer::Base.smtp_settings = {
   :enable_starttls_auto => (ENV["SMTP_STARTTLS_AUTO"] == "true"),
   :user_name => ENV.fetch("SMTP_USERNAME", ""),
   :password => ENV.fetch("SMTP_PASSWORD", ""),
-  :from => "andrewbuzzell@gmail.com"
 }
+
+config.action_mailer.default_options = {from: 'andrewbuzzell@gmail.com'}
