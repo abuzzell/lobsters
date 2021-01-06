@@ -82,7 +82,7 @@ class << Rails.application
   end
 
   def domain
-    "example.com"
+    "gmail.com"
   end
 
   def name
