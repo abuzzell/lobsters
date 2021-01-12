@@ -1,14 +1,14 @@
 
 #header {
-	background: #f04b6c !important;
+	background: #15181c !important;
 }
 
 #header a.cur_url {
-	color: rgba(255,255,255,0.85) !important;
+	color: #00cafa !important;
 }
 
 .headerlinks a {
-	color: rgba(255,255,255,0.65) !important;
+	color: #00cafa !important;
 }
 
 
