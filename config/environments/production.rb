@@ -34,6 +34,8 @@ Rails.application.configure do
   # Should default to true, but doesn't...
   config.assets.digest = true
 
+  config.action_mailer.delivery_method = :ses
+
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
 
