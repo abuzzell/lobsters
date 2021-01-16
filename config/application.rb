@@ -82,11 +82,11 @@ class << Rails.application
   end
 
   def domain
-    "test1.eba-26fesm3m.us-east-2.elasticbeanstalk.com"
+    "news.montrealethics.ai"
   end
 
   def name
-    "MAIEI-News: AI Ethics News"
+    "MAIEI - AI Ethics News"
   end
 
   # to force everyone to be considered logged-out (without destroying
