@@ -29,7 +29,7 @@ staging:
 
 production:
   <<: *default
-  database: lobsters_prod
+  database: lobsters
   username: <%= ENV['RDS_USERNAME'] %>
   password: <%= ENV['RDS_PASSWORD'] %>
   host: <%= ENV['RDS_HOSTNAME'] %>
