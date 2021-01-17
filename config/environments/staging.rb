@@ -1,7 +1,7 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  config.force_ssl = false
+  config.force_ssl = true
   config.ssl_options = { redirect: { exclude: -> request { request.path =~ /healthcheck/ } } }
 
   # Code is not reloaded between requests.
@@ -95,7 +95,19 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
 
 
+  class << Rails.application
+    def allow_invitation_requests?
+      true
+    end
 
+    def allow_new_users_to_invite?
+      true
+    end
+
+    def ssl?
+      true
+    end
+  end
 
 
 end
