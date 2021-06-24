@@ -82,11 +82,11 @@ class << Rails.application
   end
 
   def domain
-    "news.montrealethics.ai"
+    "news.ethicalintelligence.co"
   end
 
   def name
-    "MAIEI - AI Ethics News"
+    "EI - Tech Ethics News"
   end
 
   # to force everyone to be considered logged-out (without destroying
@@ -104,7 +104,7 @@ class << Rails.application
 
   # used as mailing list prefix, cannot have spaces
   def shortname
-    "MAIEI-News"
+    "EI-TEN"
   end
 
   # whether absolute URLs should include https (does not require that
